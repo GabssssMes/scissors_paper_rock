@@ -28,7 +28,7 @@ function playRound(player,computer){
         }
     }
 }
-let firstto=3;
+function game(firstto){
 let erg;
 let computer=0, player=0;
 while(computer<3 && player<3){
@@ -40,3 +40,6 @@ while(computer<3 && player<3){
 }
 if(player===3) console.log("Player wins");
 else console.log("Computer wins");
+}
+
+game(3);
