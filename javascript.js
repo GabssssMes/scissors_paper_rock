@@ -31,7 +31,7 @@ function playRound(player,computer){
 function game(firstto){
 let erg;
 let computer=0, player=0;
-while(computer<3 && player<3){
+while(computer<firstto && player<firstto){
     erg=playRound(getPlayerschoice(),getComputerchoice());
     console.log(erg);
     if(erg==="draw") continue;
